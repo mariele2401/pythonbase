@@ -7,4 +7,4 @@ print("A soma é : ",soma)
 
 subtração = num1+num2 
 
-print("A soma é : ",soma)
+print("A Subtração é : ",subtração)
