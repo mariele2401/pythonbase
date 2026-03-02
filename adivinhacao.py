@@ -1,12 +1,22 @@
 import random 
+
+
+#Cores no terminal PY
+VERMELHO = "\033[31m"
+VERDE = "\033[32m"
+AMARELO = "\033[33m"
+AZUL = "\033[34m"
+RESET = "\033[0m"
+
+
 print('*********************************')
 print('*******Jogo de Adivinhação*******')
 print('*********************************')
 
 print("Escolha o nível de dificuldade:")
-print("(1) Fácil = 1 a 10, 10 tentativas")
-print("(2) Médio = 1 a 40, 9 tentativas")
-print("(3) Difícil = 1 a 90, 5 tentativas")
+print("1 Fácil (10 tentativas)")
+print("2 Médio (9 tentativas)")
+print("3 Difícil (5 tentativas)")
 
 nivel = int(input("Digite o nível: "))
 
